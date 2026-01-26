@@ -26,7 +26,7 @@ const Projects = () => {
       description: "A responsive navigation bar designed to provide quick access to key defence insights, features, and resources with a clean, modern user experience.",
       image: DefInsightImage, 
       tags: ["React", "JavaScript", "HTML", "TailwindCSS"],
-      github: "#",
+      github: "https://github.com/Steadydrumz/1st-Job",
       live: "https://www.shephard.projectupdates.co.uk/news/"
     }
   ];
