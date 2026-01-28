@@ -79,7 +79,7 @@ const Navbar = () => {
             {/* Sidebar Links */}
             <ul className="flex flex-col gap-6">
               {navLinks.map((link, idx) => (
-                <li key={link} className="animate-fade-in-up" style={{ animationDelay: `${idx * 0.1}s` }}>
+                <li key={link} className="animate-fade-in-up" style={{ animationDelay: `${idx * 0.05}s` }}>
                   <a
                     href={`#${link.toLowerCase()}`}
                     className="text-lg font-semibold text-[#334155] hover:text-[#4f46e5] transition-all flex justify-between items-center group"
@@ -104,8 +104,8 @@ const Navbar = () => {
           from { opacity: 0; transform: translateY(15px); }
           to { opacity: 1; transform: translateY(0); }
         }
-        .animate-slide-in-right { animation: slideInRight 0.05s cubic-bezier(0.16, 1, 0.3, 1); }
-        .animate-fade-in-up { animation: fadeInUp 0.2s ease-out forwards; opacity: 0; }
+        .animate-slide-in-right { animation: slideInRight 0.01s cubic-bezier(0.16, 1, 0.3, 1); }
+        .animate-fade-in-up { animation: fadeInUp 0.1s ease-out forwards; opacity: 0; }
       `}} />
     </nav>
   );
