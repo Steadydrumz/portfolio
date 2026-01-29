@@ -9,13 +9,12 @@ const Projects = () => {
       description: "A modern web application interface built to streamline interactions and workflows within the Bound Protocol ecosystem.",
       image: BoundProtocolImage,
       tags: ["JavaScript", "React", "TailwindCSS", "Bootstrap"],
-      github: "https://github.com/Steadydrumz/Bound-by-steady",
+      github: "https://github.com/Steadfastness-ITS/Bound-by-steady",
       live: "#"
     },
     {
       title: "Dev Help AI Chatbot",
       description: "A versatile, AI-powered assistant designed to streamline developer workflows by providing real-time technical guidance and solving complex coding challenges.",
-      // LOGIC UPDATED: Using the imported DevHelpImage variable
       image: DevHelpImage, 
       tags: ["TypeScript", "Next.js", "React", "TailwindCSS"],
       github: "#",
@@ -26,7 +25,7 @@ const Projects = () => {
       description: "A responsive navigation bar designed to provide quick access to key defence insights, features, and resources with a clean, modern user experience.",
       image: DefInsightImage, 
       tags: ["React", "JavaScript", "HTML", "TailwindCSS"],
-      github: "https://github.com/Steadydrumz/1st-Job",
+      github: "https://github.com/Steadfastness-ITS/1st-Job",
       live: "https://www.shephard.projectupdates.co.uk/news/"
     }
   ];
@@ -105,7 +104,7 @@ const Projects = () => {
         {/* View All Button */}
         <div className="mt-16 flex justify-center">
           <a 
-            href="https://github.com/Steadydrumz" 
+            href="https://github.com/Steadfastness-ITS" 
             target="_blank" 
             rel="noreferrer"
             className="px-8 py-3 rounded-full border-2 border-[#4f46e5] text-[#4f46e5] font-bold hover:bg-[#4f46e5] hover:text-white transition-all inline-block"
