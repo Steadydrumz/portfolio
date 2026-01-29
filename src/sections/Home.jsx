@@ -19,7 +19,7 @@ const Home = () => {
 
         {/* Title */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-slate-700 mb-6 animate-slide-up delay-100">
-          Front-end Web Developer & Designer
+          Front-end Web Developer & UI/UX Designer
         </h2>
 
         {/* Description - Max width restricted for that clean look */}
@@ -44,7 +44,7 @@ const Home = () => {
         {/* Social Icons - Animated with Hover Scale */}
         <div className="flex justify-center gap-5 mb-16 animate-slide-up delay-500">
           {[
-            { id: 'github', url: 'https://github.com/Steadydrumz', color: 'text-slate-800', path: 'M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.28 1.15-.28 2.35 0 3.5-.73 1.02-1.08 2.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4M9 18c-4.51 2-5-2-7-2' },
+            { id: 'github', url: 'https://github.com/Steadfastness-ITS', color: 'text-slate-800', path: 'M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.28 1.15-.28 2.35 0 3.5-.73 1.02-1.08 2.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4M9 18c-4.51 2-5-2-7-2' },
             { id: 'linkedin', url: '#', color: 'text-[#4f46e5]', path: 'M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4z' },
             { id: 'email', url: 'mailto:steadydrums14@gmail.com', color: 'text-[#a855f7]', path: 'm22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7M2 4h20v16H2z' }
           ].map((icon) => (
