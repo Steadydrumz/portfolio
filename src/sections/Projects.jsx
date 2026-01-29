@@ -9,7 +9,7 @@ const Projects = () => {
       description: "A modern web application interface built to streamline interactions and workflows within the Bound Protocol ecosystem.",
       image: BoundProtocolImage,
       tags: ["JavaScript", "React", "TailwindCSS", "Bootstrap"],
-      github: "https://github.com/Steadfastness-ITS/Bound-by-steady",
+      github: "https://github.com/Steadfastness-ITS/Bound-Protocol",
       live: "#"
     },
     {
