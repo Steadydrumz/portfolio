@@ -25,7 +25,7 @@ const About = () => {
             <div className="absolute -inset-2 md:-inset-4 bg-gradient-to-tr from-[#4f46e5]/10 to-[#a855f7]/10 rounded-[1.5rem] md:rounded-[2rem] blur-2xl opacity-70"></div>
             <div className="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-xl md:shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop" 
+                src="./Abt me.png" 
                 alt="Workspace" 
                 className="w-full h-[300px] md:h-[500px] object-cover hover:scale-105 transition-transform duration-700"
               />
